@@ -1,0 +1,9 @@
+[
+    {"date_inf":"05/10/2023", "num_immat":"AA643BB", "num_permis":"AZ71", "délits":[1]}
+    , 
+    {"date_inf":"05/10/2023", "num_immat":"AB308FG", "num_permis":"AZ90", "délits":[2, 4]}
+    ,
+    {"date_inf":"06/10/2023", "num_immat":"BF823NG", "num_permis":"",     "délits":[3]}
+    ,
+    {"date_inf":"07/10/2023", "num_immat":"BG823NG", "num_permis":"AZ24", "délits":[4]}
+] 

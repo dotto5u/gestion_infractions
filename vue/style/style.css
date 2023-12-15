@@ -1,0 +1,146 @@
+body{
+    font-family: Roboto, Arial, sans-serif;
+    color      : #000000;
+    background-color : #ebebeb;
+    width      : auto;
+    margin     : 0;
+}
+
+h1{
+  font-size : 1.2em;
+}
+
+header {
+  background-color : silver;
+}
+
+header h1 {
+  font-weight: normal;
+  line-height: 2em;
+  font-size  : 1.4em;
+}
+
+section {
+  min-height 	: 3em;
+  text-align 	: left;
+  display 		: grid;
+  grid-template-columns: 1fr 8fr;
+  grid-gap 		: 10px; 
+}
+
+label {
+   text-align: right;  
+}
+
+.erreur {
+  font-size: small;
+  color    : red;
+}
+
+input {
+    height       : 1.5em;
+    border       : 1px solid #5b5b5b;
+    color        : #000000;
+    font         : inherit;
+    font-size    : 1em;
+    text-align   : left;
+    margin-right : 5px;
+    padding-top  : 0.2em;
+}
+
+input[type="submit"] {
+  text-align: center;
+  min-height: 2em;
+  min-width : 8em;
+  margin: 0;
+  font-size:medium;
+  cursor : pointer;
+  color  : white;
+}
+
+input[name="Ajouter"], .ajout {
+  background-color: rgba(0, 191, 255);
+  color : white;
+}
+
+input[name="Valider"], .info {
+  background-color: rgba(0, 255, 34);
+  color: black;
+}
+
+input[name="Annuler"], .retour {
+  background-color: rgba(255, 174, 0);
+  color: black;
+}
+
+input[name="Supprimer"],.supprimer {
+  background-color : red;
+  color:white;
+}
+
+input[name="Modifier"],.modifier {
+  background-color : rgba(0, 85, 255);
+  color : white;
+}
+
+input[type="number"] {
+  text-align : right;
+  width      : 6em;
+}
+
+
+table {
+  margin : auto;
+  margin-left : 0px;
+}
+
+table, td, th{
+  border : 1px solid silver;
+  border-collapse : collapse;
+  line-height : 2em;
+}
+
+td, th{
+  padding-left : 5px;
+  padding-right : 5px;
+}
+
+th{
+  background-color: lightgrey;
+  font-weight: lighter;
+}
+
+td  {
+  min-width : 4em;
+  text-align : center;
+}
+
+.table_salle td:nth-child(2) {
+  text-align : left;
+}
+
+.table_salle_equipt td:nth-child(2) {
+  text-align : left;
+}
+
+
+a {
+    text-decoration: none;
+    cursor : pointer;
+}
+
+
+.inf_rubrique { 
+    min-height            : 30px;
+    margin-top            : 5px;
+    text-align            : left;
+    display               : grid;
+    grid-template-columns : 0.2fr 0.3fr 0.3fr 1fr;
+    gap                   : 10px;
+}
+
+.inf_commentaire {
+  text-align  : left;
+  font-size   : 0.9em;
+  white-space : pre; 
+}
